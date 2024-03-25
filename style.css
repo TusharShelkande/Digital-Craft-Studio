@@ -1,0 +1,632 @@
+/* Custom CSS styles for Digital Craft Studio */
+*{
+    margin: 0px;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+.featurette-divider {
+  height: 3rem;
+  margin: 3rem 0;
+  border-top: 2px solid #080101;
+}
+
+
+/******************************************************************************  Navbar/Header **************************************************/
+.navbar {
+    border-bottom: 2px solid #e9ecef;
+    color: #212529;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+
+.navbar-brand {
+        background-image: url("digitalcrafts-logo.png");
+        background-size: cover;
+        height: 50px;
+        width: 10%;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-left: 20px;
+}
+
+.navbar-nav .nav-link {
+    color: #f8f9fa;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+#item9,#item10{
+    margin-left: 10px;
+}
+
+#item1,#item2,#item3,#item4,#item5,#item6,#item7{
+    height: 25px;
+    margin: 10px;
+    padding: auto;
+    color: #f8f9fa;
+}
+
+#item8:hover{
+    border: 1px solid #007bff;
+    border-color: #007bff;
+    border-radius: 2px;
+    transition: border-color 0.2s;
+}
+#item9:hover{
+    background-color: blue;
+    color: #f3f3f3;
+}
+#item10:hover{
+    background-color: green;
+    color: #f3f3f3;
+}
+
+/******************************************************************************  Home **************************************************/
+#home{
+  background: url(Home.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1100px;
+  margin-bottom: 50px;
+}
+
+
+/******************************************************************************  About **************************************************/
+#about {
+    background-color: #f5f5f5;
+    padding: 100px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-image: linear-gradient(to right,#A9F1DF , #FFBBBB);
+  }
+
+  button {
+    padding: 50%;
+    border-radius: 25px;
+    transition: all 0.2s ease;
+    background-color:#007bff ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  img {
+    border-radius: 5px;
+    height: 300px;
+    width: 300px;
+  }
+  
+  .featurette-divider {
+    margin: 60px 0;
+    border-top: 1px solid #e5e5e5;
+  }
+
+/******************************************************************************  Services **************************************************/
+#services1,#services2{
+   background-image: linear-gradient(to right,#A9F1DF , #FFBBBB);
+}
+
+.bd-placeholder-img.rounded-circle {
+    border-radius: 50%;
+  }
+  
+  .row [class*="col-"] {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+
+/******************************************************************************  Testimonials **************************************************/
+#testimonials{
+  background-image: linear-gradient(to right,#A9F1DF , #FFBBBB);
+}
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-warning {
+    color: #07ff13;
+  }
+  
+  .fw-bold {
+    font-weight: bold;
+  }
+  
+  .lead {
+    font-size: 1.25rem;
+  }
+  
+  .col-md-7, .col-md-5 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    text-align: center;
+  }
+  
+  .featurette-image {
+    border-radius: 50%;
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+  }
+  
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+  
+  .card {
+    border: none;
+  }
+  
+  .card-body {
+    padding: 2rem;
+  }
+  
+  .card-title {
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  
+  .card-img-top {
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+  }
+  
+  @media (min-width: 576px) {
+    .col-sm-3 {
+      flex: 0 0 25%;
+      max-width: 25%;
+    }
+  
+    .mb-sm-0 {
+      margin-bottom: 0 !important;
+    }
+  
+    .mb-3, .my-3 {
+      margin-bottom: 1rem !important;
+    }
+  
+    .mx-auto {
+      margin-left: auto !important;
+      margin-right: auto !important;
+    }
+  }
+
+/******************************************************************************  Team **************************************************/
+#team {
+  background-image: linear-gradient(to right,#A9F1DF , #FFBBBB);
+  padding: 50px 0;
+}
+
+#team .card {
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+#team .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+#team .card-body {
+  padding: 30px;
+}
+
+#team img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+#team h5 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+#team p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+#team .btn {
+  font-size: 0.9rem;
+  padding: 10px 30px;
+  border-radius: 30px;
+}
+
+/******************************************************************************  Gallery **************************************************/
+/* Carousel */
+.carousel-inner img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.carousel-caption h5 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.carousel-caption p {
+  font-size: 1.1rem;
+  opacity: 0.8;
+}
+
+@media (max-width: 767.98px) {
+  .carousel-inner img {
+    height: 300px;
+  }
+}
+
+/******************************************************************************  Portfolio **************************************************/
+.text-center {
+  text-align: center;
+}
+
+.fs-1 {
+  font-size: 1.5rem;
+}
+
+.fw-bold {
+  font-weight: bold;
+}
+
+.text-warning {
+  color: #ffb300;
+}
+
+.mb-5 {
+  margin-bottom: 3rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.g-3 {
+  gap: 1.5rem;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mx-auto {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.d-inline-flex {
+  display: inline-flex !important;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control::placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.btn-primary:focus {
+  color: #fff;
+  background-color: #0062cc;
+  border-color: #005cbf;
+  box-shadow: 0 0 0 0.25rem rgba(38, 143, 255, 0.5);
+}
+
+.btn-primary:disabled {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+
+/******************************************************************************  Contact **************************************************/
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+#contact {
+  padding: 50px 0;
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+.feature {
+  padding: 20px;
+  border-right: 1px solid #eee;
+}
+
+.feature:last-child {
+  border-right: none;
+}
+
+.feature-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  font-size: 32px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.bg-gradient {
+  background-image: linear-gradient(to right, #ff7f50, #ff7f50);
+}
+
+.text-primary {
+  color: #333;
+}
+
+h1 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.form-control {
+  background-color: #f9f9f9;
+  border: none;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 0;
+  box-shadow: 1px 1px 2px #ccc;
+}
+
+.btn-primary {
+  background-color: #ff7f50;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 0;
+  color: #fff;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .feature-icon {
+    width: 60px;
+    height: 60px;
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 576px) {
+  .row-cols-1 {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .col-5 {
+    -ms-flex: 50%;
+    flex: 50%;
+  }
+
+  .col-5.mt-2 {
+    -ms-flex: 100%;
+    flex: 100%;
+  }
+
+  .feature {
+    padding: 20px 10px;
+  }
+}
+
+/***************************************************************************** Info ***********************************************/
+#info {
+  max-width: 960px;
+  margin: auto;
+  padding: 0 16px;
+}
+
+.feature {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.feature-icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 1rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bi-geo-alt-fill,
+.bi-telephone-fill,
+.bi-envelope-at-fill {
+  transform: translateY(1px);
+}
+
+.fs-1 {
+  font-size: 2.5rem;
+}
+
+.fs-3 {
+  font-size: 1.25rem;
+}
+
+.text-secondary {
+  color: #6c757d;
+}
+
+.bg-gradient {
+  background: linear-gradient(90deg, #ff7f50 0, #ff7f50 100%);
+  -webkit-text-fill-color: transparent;
+}
+
+.text-warning {
+  color: #ff7f50;
+}
+
+.mb-5 {
+  margin-bottom: 2.5rem;
+}
+
+/******** Social Media ********/
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #e60ec2;
+  color: white;
+}
+
+
+/******************************************************************************  Footer **************************************************/
+footer{
+    margin-top: 15px;
+}
+.foot-panel1{
+    background-color: #8e99a5;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.logo{
+    background-image: url("digitalcrafts-logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-panel2{
+    padding-left: 625px;
+    background-color: #37475a;
+}
+.foot-panel3{
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+.pages{
+    padding-top: 25px;
+}
+.copyright{
+    padding: 5px;
+}
+
